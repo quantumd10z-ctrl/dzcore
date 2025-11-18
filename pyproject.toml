@@ -1,0 +1,11 @@
+[project]
+name = "d10z"
+version = "1.0.0"
+description = "D10Z Core – TTA Nodal Engine"
+authors = [{name="Jamil Al Thani"}]
+license = {text = "Apache-2.0"}
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.scripts]
+d10z = "d10z.cli:cli"
