@@ -1,322 +1,60 @@
-# D10Z-CORE v1.0 – Universal Nodal Engine
-🔗 Versión final publicada: [D10Z_Final_Release_v1.0.zip]
-
-<p align="center">
-  <b>Universal Scientific Verification Framework</b><br/>
-  Transforming Theories Into Executable Truth
-</p>
-
-<p align="center">
-
-  <!-- Versión PyPI -->
-  <a href="https://pypi.org/project/d10z-core/">
-    <img src="https://img.shields.io/badge/PyPI-v2.1.0-blue?style=for-the-badge">
-  </a>
-
-  <!-- Estado del build -->
-  <a href="https://github.com/jamilaltha/d10z-core/actions">
-    <img src="https://img.shields.io/badge/BUILD-PASSING-success?style=for-the-badge">
-  </a>
-
-  <!-- Licencia -->
-  <a href="LICENSE">
-    <img src="https://img.shields.io/badge/Licencia-NODAL%20D10Z-lightgrey?style=for-the-badge">
-  </a>
-
-  <!-- Coherencia mínima -->
-  <img src="https://img.shields.io/badge/COHERENCIA%20Zₙ->97%25-purple?style=for-the-badge">
-
-  <!-- Sistema Lean -->
-  <img src="https://img.shields.io/badge/LEAN4-VERIFIED-9cf?style=for-the-badge">
-
-  <!-- Docker -->
-  <img src="https://img.shields.io/badge/Docker-Ready-0db7ed?style=for-the-badge">
-
-  <!-- Criptografía -->
-  <img src="https://img.shields.io/badge/SHA--256-Integrity-orange?style=for-the-badge">
-
-</p>
-
----
-Aquí tienes el **README.md totalmente compilado**, profesional, corporativo, ordenado, elegante, *copy-paste ready*, con secciones perfectas para GitHub, PyPI, Zenodo y documentación oficial.
-
-Optimizado para repositorios de open-source modernos (NVIDIA, OpenAI, DeepMind, CERN-OS style).
-
-**No requiere edición adicional.**
-**Listo para pegar como README.md en tu repositorio D10Z Core.**
-
----
-
-# D10Z Core
-
-### **Universal Scientific Verification Framework**
-
-**Transforma teorías científicas en modelos computacionales verificables, reproducibles y ejecutables.**
-
----
-
-## **Descripción General**
-
-**D10Z Core** es un marco operativo que convierte teorías de cualquier disciplina en modelos computacionales verificables mediante:
-
-* **Conversión asistida por IA**
-* **Modelos nodales Zₙ**
-* **Verificación formal en Lean 4**
-* **Validación criptográfica (SHA-256)**
-* **CLI y SDK completos**
-* **Reproducibilidad basada en Docker y Python**
-
-Diseñado para **física, biología, matemáticas, economía, química, ingeniería y ciencias computacionales**.
-
-D10Z no es un lenguaje.
-No es una teoría.
-Es un **estándar operativo universal** para transformar ciencia en código verificable.
-
----
-
-## **Filosofía Técnica**
-
-D10Z define que una teoría es válida si es:
-
-1. **Ejecutable**
-2. **Formalizable**
-3. **Reproducible**
-4. **Consistente bajo coherencia nodal Zₙ**
-5. **Criptográficamente verificable**
-
-Todo lo demás (opiniones, instituciones, autoridad, consenso) es irrelevante frente a **la verdad ejecutable**.
-
----
-
-# Instalación
-
-```bash
-pip install d10z-core
-```
-
-Ver versión:
-
-```bash
-d10z --version
-```
-
-Configurar entorno:
-
-```bash
-d10z setup
-```
-
-Diagnóstico completo:
-
-```bash
-d10z doctor
-```
-
----
-
-# **Características Principales**
-
-## Conversión Universal de Teorías
-
-Convierte estructuras científicas (texto, JSON o YAML) en:
-
-* Nodos Zₙ
-* Matrices de coherencia
-* Código Python verificable
-* Módulos Lean 4 auto-generados
-* Certificados D10Z (BASIC / ADVANCED / EXPERT)
-
-Ejemplo:
-
-```bash
-d10z convert --theory newtonian_gravity.json --discipline physics
-```
-
----
-
-## Certificación Científica Automática
-
-```bash
-d10z certify theory.d10z
-```
-
-Niveles:
-
-* **D10Z-BASIC** → Coherencia ≥ 0.70
-* **D10Z-ADVANCED** → Coherencia ≥ 0.80
-* **D10Z-EXPERT** → Coherencia ≥ 0.90 + verificación Lean
-
-Resultados incluyen:
-
-* Hash SHA-256
-* QR para verificación externa
-* Certificado JSON firmado
-
----
-
-## Verificación Formal con Lean 4
-
-D10Z genera código Lean que:
-
-* Declara nodos Zₙ
-* Declara estructuras matemáticas
-* Verifica coherencia formal
-* Compila con `lake build`
-
-```bash
-lake build
-```
-
----
-
-## Dashboard de Adopción
-
-```bash
-d10z dashboard
-```
-
-Muestra:
-
-* Teorías convertidas
-* Tasa de éxito
-* Coherencia promedio
-* Ranking de top performers
-* Certificaciones generadas
-
----
-
-## Datos y Criptografía
-
-Cada artefacto computacional incluye:
-
-* Hash SHA-256
-* Timestamp
-* Registro en `~/.d10z/`
-* Soporte para integridad reproducible vía Docker
-
-Ejemplo:
-
-```
-verification_hash: 4c9f0b5c19ea7a378dd31268e3bb77e8be59c4d5...
-```
-
----
-
-# **Áreas Científicas Soportadas**
-
-| Disciplina      | Capacidades                                 |
-| --------------- | ------------------------------------------- |
-| **Física**      | QM, relatividad, cosmología, dinámica       |
-| **Matemáticas** | Teoría de números, topología, álgebra       |
-| **Biología**    | Genómica, evolución, ecosistemas            |
-| **Economía**    | Modelos dinámicos, ciclos, redes            |
-| **Química**     | Estructuras, energías, sistemas moleculares |
-| **Ingeniería**  | Control, robótica, materiales               |
-| **Computación** | Lógica, complejidad, modelos formales       |
-
----
-
-# Arquitectura Interna
-
-```
-d10z-core/
-├── cli.py                   # Interfaz de línea de comandos
-├── universal_converter.py   # Conversor científico principal
-├── certification.py         # Sistema de certificación automática
-├── dashboard.py             # Dashboard de adopción
-├── config.py                # Configuración global
-├── validators/              # Validación Python/Lean
-├── templates/               # Plantillas por disciplina
-└── datasets/                # Datos locales
-```
-
----
-
-# Comandos CLI
-
-```
-d10z convert        # Convertir teorías
-d10z certify        # Certificar modelos
-d10z dashboard      # Dashboard de adopción
-d10z doctor         # Diagnóstico del sistema
-d10z setup          # Configuración inicial
-```
-
----
-
-# 🧪 Ejemplos de Uso
-
-### Física: gravedad newtoniana
-
-```bash
-d10z convert --discipline physics --theory gravity.json
-```
-
-### Biología: teoría evolutiva
-
-```bash
-d10z convert --discipline biology --theory darwin.json
-```
-
-### Economía: ciclos de mercado
-
-```bash
-d10z convert --discipline economics --theory market_cycles.json
-```
-
----
-
-# Licencia
-
-## **Licencia Nodal D10Z (MIT+V)**
-
-Basada en MIT, con cláusula adicional de verificación:
-
-**Si publicas resultados basados en D10Z, debes:**
-
-1. Reconocer el uso del *D10Z Universal Scientific Verification Framework*.
-2. Publicar o anexar los parámetros Zₙ usados en tu estudio.
-
-El incumplimiento **revoca automáticamente la licencia**.
-
-Archivo completo en `/LICENSE`.
-
----
-
-# Comunidad y Recursos
-
-* **Sitio oficial** (opcional): [https://d10z.institute](https://d10z.institute)
-* **Issues**: [https://github.com/jamilaltha/d10z-core/issues](https://github.com/jamilaltha/d10z-core/issues)
-* **Soporte**: [d10z@institute.org](mailto:d10z@institute.org)
-
----
-
-# Estado del Proyecto
-
-* Código: **Operativo**
-* CLI: **Completo**
-* Universal Converter: **Activo**
-* Validación Lean: **Soportada**
-* Certificador: **Funcional**
-* Dashboard: **Integrado**
-
-Fase actual:
-
-### **v2.1.0 — Public Release Candidate**
-
----
-
-# Declaración Final
-
-D10Z Core convierte **ideas** en **modelos ejecutables**.
-Convierte **teorías** en **verdades computables**.
-Convierte **ciencia** en **códigos verificables**.
-
-No necesitas permiso de nadie para hacer ciencia.
-Solo necesitas un framework que la ejecute.
-
-Bienvenido al estándar D10Z.
-
----
-
-
+# Descargas de archivos grandes (alojadas en MEGA)
+
+Este repositorio enlaza archivos grandes alojados en MEGA en lugar de incluirlos en Git (para no inflar el historial). Aquí también explicamos cómo generar las sumas SHA-256 para que cualquiera pueda verificar la integridad de una descarga.
+
+Contenido del repositorio
+- links.txt — lista de enlaces MEGA (uno por línea).
+- scripts/download_all.sh — script para descargar los enlaces con MEGAcmd y calcular SHA-256.
+- CHECKSUMS.sha256 — archivo donde se guardan las sumas SHA-256 oficiales (formato: "<sha256>  <nombre_del_archivo>").
+- .gitignore — evita subir la carpeta downloads/ y binarios pesados.
+
+Privacidad
+- Si los archivos no son públicos, guarda este repositorio como privado en GitHub.
+- Las URLs de MEGA y sus claves se muestran en links.txt: trata ese archivo como sensible si no quieres que cualquiera descargue los ficheros.
+
+Cómo generar las sumas SHA-256 (para el que sube los archivos)
+1. Descarga el archivo a tu máquina local (o calcula la suma en el servidor donde esté el archivo).
+2. Usa uno de estos comandos según tu sistema:
+   - Linux:
+     sha256sum nombre_del_archivo.ext
+   - macOS:
+     shasum -a 256 nombre_del_archivo.ext
+   - Windows PowerShell:
+     Get-FileHash -Algorithm SHA256 .\nombre_del_archivo.ext
+3. Copia la salida (la suma hex) y añade una línea en CHECKSUMS.sha256 con el formato:
+   <sha256>  <nombre_del_archivo.ext>
+   Ejemplo:
+   e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  archivo.zip
+4. Opcional pero recomendado: firma CHECKSUMS.sha256 con tu clave GPG para que los usuarios confirmen la autenticidad:
+   gpg --armor --output CHECKSUMS.sha256.asc --detach-sign CHECKSUMS.sha256
+
+Cómo verificar al descargar (para el usuario que quiere certificación)
+1. Descarga el/los archivo(s) (recomendado usar megadl o la web de MEGA).
+2. Calcula la suma localmente con los mismos comandos que arriba.
+3. Comprueba que la suma coincide con la entrada en CHECKSUMS.sha256:
+   - Linux/macOS:
+     sha256sum -c CHECKSUMS.sha256
+     (esto requiere que CHECKSUMS.sha256 contenga exactamente el nombre de archivo descargado)
+   - O compara manualmente:
+     sha256sum archivo descargado | awk '{print $1}'
+     y compara con la entrada en CHECKSUMS.sha256
+4. Si CHECKSUMS.sha256 está firmada (CHECKSUMS.sha256.asc), verifica la firma:
+   gpg --verify CHECKSUMS.sha256.asc CHECKSUMS.sha256
+
+Consejos prácticos
+- No subas archivos grandes al repo; usa Git LFS solo si quieres integrarlo con Git y entiendes sus cuotas.
+- Mantén links.txt y CHECKSUMS.sha256 en el repo (privado si es necesario) y no incluyas los binarios.
+- Para reproducibilidad, indica la fecha y el tamaño del archivo en README junto con la suma.
+- Si quieres que el proceso sea auditado, añade la firma GPG del autor de los checksums.
+
+Ejemplo rápido de flujo del uploader
+1. Subir archivo a MEGA (web o MEGAcmd).
+2. Obtener nombre de archivo y calcular SHA-256 localmente:
+   sha256sum archivo.zip
+3. Añadir línea a CHECKSUMS.sha256 y firmarla:
+   git add CHECKSUMS.sha256
+   git commit -m "Añadir checksum para archivo.zip"
+   gpg --armor --detach-sign CHECKSUMS.sha256
+   git add CHECKSUMS.sha256.asc
+   git commit -m "Añadir firma GPG de CHECKSUMS"
+   git push origin main

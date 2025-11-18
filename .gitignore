@@ -1,105 +1,12 @@
-# ============================================
-# D10Z-CORE .gitignore
-# Estándar corporativo para proyectos Python
-# ============================================
-
-# ---- Python ----
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Archivos temporales
-*.log
-*.tmp
-*.temp
-
-# ---- Virtual Environments ----
-env/
-venv/
-ENV/
-.venv/
-.python-version
-
-# ---- Build / Packaging ----
-build/
-dist/
-*.egg-info/
-.eggs/
-*.egg
-MANIFEST
-
-# ---- Bytecode / Caches ----
-*.pyo
-*.pyd
-.cache/
-.pytest_cache/
-mypy_cache/
-pip-wheel-metadata/
-
-# ---- Configuración PyInstaller ----
-*.spec
-
-# ---- Jupyter Notebooks ----
-.ipynb_checkpoints/
-
-# ---- IDE / Editor ----
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# ---- Sistemas Mac / Linux / Windows ----
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# ---- Tests ----
-coverage.xml
-htmlcov/
-.tox/
-.nox/
-
-# ---- Documentación ----
-_site/
-docs/_build/
-docs/build/
-
-# ---- Entrenamientos y Modelos ----
-*.ckpt
-*.h5
-*.keras
-*.onnx
-
-# ---- Archivos Grandes Opcionales ----
+# Evitar subir las descargas y binarios pesados
+downloads/
 *.zip
 *.tar.gz
-*.rar
+*.psd
+*.exe
+*.bin
+*.iso
 
-# ---- D10Z Framework System ----
-# Directorios internos del usuario (NO deben subirse al repo)
-~/.d10z/
-.d10z/
-certificates/
-datasets/
-backups/
-theories/
-
-# ---- Docker ----
-*.tar
-*.img
-
-# ---- Seguridad ----
-*.key
-*.pem
-*.crt
-.secret
-.env
-.env.*
-
-# ---- Node.js (si usas dashboard web más adelante) ----
-node_modules/
-npm-debug.log*
-
-# ============================================
-# FIN DEL ARCHIVO
-# ============================================
+# Archivos de sistema
+.DS_Store
+Thumbs.db

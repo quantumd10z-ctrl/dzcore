@@ -1,0 +1,7 @@
+# Rellena con las sumas SHA-256 reales una vez que las tengas.
+# Formato por línea:
+# <sha256>  <nombre_del_archivo>
+# Ejemplo:
+# e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  archivo.zip
+
+# Añade aquí las sumas. Actualmente está vacío porque no nos diste las sumas.
