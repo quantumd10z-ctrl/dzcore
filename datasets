@@ -1,8 +1,15 @@
 dzcore/
    datasets/
+      .gitkeep
       fasta/
+         .gitkeep
       sparc/
+         .gitkeep
       sdss/
+         .gitkeep
       fits/
+         .gitkeep
       genomes/
+         .gitkeep
       examples/
+         .gitkeep
