@@ -10,3 +10,5 @@ El ecosistema D10Z es la arquitectura universal
 para comprender y amplificar la coherencia humana.
 
 ©2025 Jamil Al Thani
+.gitkeep
+
