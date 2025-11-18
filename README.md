@@ -1,3 +1,5 @@
+# D10Z-CORE v1.0 – Universal Nodal Engine
+🔗 Versión final publicada: [D10Z_Final_Release_v1.0.zip]
 
 <p align="center">
   <b>Universal Scientific Verification Framework</b><br/>
