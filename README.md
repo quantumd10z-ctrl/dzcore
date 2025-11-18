@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo_d10z.png" width="240"/>
+  <img src="assets/D10Z_1.jpg" width="240"/>
 </p>
 
 <p align="center">
