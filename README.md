@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="assets/D10Z_1.jpg" width="240"/>
-</p>
 
 <p align="center">
   <b>Universal Scientific Verification Framework</b><br/>
